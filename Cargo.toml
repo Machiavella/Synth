@@ -1,0 +1,12 @@
+[package]
+name = "rustsynthproj"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1"
+atomic_float = "1"
+parking_lot = "0.12"
+cpal = "0.15"
+egui = "0.27"
+eframe = { version = "0.27", features = ["wgpu"] }
